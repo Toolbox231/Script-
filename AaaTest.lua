@@ -75,6 +75,7 @@ local Scp076 = Instance.new("TextButton")
 local Scp938 = Instance.new("TextButton")
 local Scp023 = Instance.new("TextButton")
 local Scp457 = Instance.new("TextButton")
+local YouTube = Instance.new("TextLabel")
 local UICorner1 = Instance.new("UICorner")
 local UICorner2 = Instance.new("UICorner")
 local UICorner3 = Instance.new("UICorner")
@@ -2987,3 +2988,11 @@ task.spawn(function()
 	task.delay(10, function() folder:ClearAllChildren() end)
 end)
 end)
+
+YouTube.Name = "YouTube"
+YouTube.Parent = main
+YouTube.Position = UDim2.new(0.5, 0, -0.3, 0)
+YouTube.Font = Enum.Font.SourceSans
+YouTube.Text = " Creator: @BINCOOD "
+YouTube.TextColor3 = Color3.fromRGB(148, 0, 211)
+YouTube.TextSize = 25.000
